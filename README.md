@@ -150,8 +150,8 @@ https://youtu.be/JTZ31lpMkfA)
     * Other Basic Methods
     * File IO
   * ***Demonstrate Python Knowledge by Doing the following:***
-    * Try some of these basic Python exercises
-    * Work through these Python projects 
+    * [Try some of these basic Python exercises](https://github.com/jbfrc/FRC-Python-Training/blob/main/01-Basic%20Python%20Exercises/Basic%20Python%20Exercises.md)
+    * [Work on a more open-ended Python project](https://github.com/jbfrc/FRC-Python-Training/blob/main/02-Advanced%20Python%20Projects/AdvancedPythonProjects.md)
   * ***Basic Python Learning Links/Options***
     * With Python, there is no shortage of online resources and tutorials to learn with. The links I've included here are ones that I've used, but there are many more options than what is listed.
     * I have used the following books to teach Python to various groups:
