@@ -28,7 +28,7 @@ New programming students are also required to take the basic handtools, mechanic
      * The cables are not a handle!
      * What happens if battery is dropped?
      * What about a leaking battery?
-   * [No long hair (should be tied back), dangling jewelry, ties, loose clothing, etc. when working around a robot](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf#%5B%7B%22num%22%3A29%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C70%2C487%2C0%5D)
+   * [Long hair must be tied back, no dangling jewelry, no ties, clothing should fit properly to avoid getting caught in the robot, etc.](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf#%5B%7B%22num%22%3A29%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C70%2C487%2C0%5D)
    * [Lifting the robot](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf#%5B%7B%22num%22%3A24%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C70%2C691%2C0%5D)
    * Assume anything designed to shoot/throw an object can do that during testing and avoid being in front of it.
    * Assume that a robot will move in a direction or way you don't expect.
