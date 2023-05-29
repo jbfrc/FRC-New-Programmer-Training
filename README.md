@@ -1,10 +1,11 @@
-# FRC New Programming Student Python Training
+<h1>Ozone Robotics - New Programming Student Training</h1>
 
-Last Updated: May 1, 2023
+Last Updated: May 28, 2023
 
-## Overview of Training Topics
+<h2>Overview of Training Topics</h2>
 
-This is a list of topics that I'm putting together to train new FRC robotics students. It's obviously not complete but will cover the following when completed:
+This is a list of topics to train new FRC robotics programming students. It's obviously not complete but will cover the following when completed:
+
 * Basic robot safety issues
 * Introduction to FRC hardware and wiring
 * Fundamentals of Python
@@ -16,32 +17,37 @@ This is a list of topics that I'm putting together to train new FRC robotics stu
 New programming students are also required to take the basic handtools, mechanical, and electrical training in the preseason.
 
 ## Detailed List of Training Topics
-#### 1. Safety (Focused a lot on issues that programmers would deal with while testing code)
+#### 1. Background knowledge. Complete the following training during the preseason:
+* Basic electrical
+* Basic hand tools
+* Basic mechanical
+#### 2. Safety (Focused a lot on issues that programmers would deal with while testing code)
 * ***General Knowledge***
-   * Battery Safety
+   * [Battery Safety](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/robot-battery.html#battery-safety-handling)
      * How to safely carry a battery
      * The cables are not a handle!
      * What happens if battery is dropped?
      * What about a leaking battery?
-   * No long hair (should be tied back), dangling jewelry, ties, loose clothing, etc. when working around a robot
-   * Lifting
+   * [No long hair (should be tied back), dangling jewelry, ties, loose clothing, etc. when working around a robot](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf#%5B%7B%22num%22%3A29%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C70%2C487%2C0%5D)
+   * [Lifting the robot](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf#%5B%7B%22num%22%3A24%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C70%2C691%2C0%5D)
    * Assume anything designed to shoot/throw an object can do that during testing and avoid being in front of it.
-   * Assume that a robot will travel in a direction you don't expect.
+   * Assume that a robot will move in a direction or way you don't expect.
      * Keep distance and barrier between you and robot.
      * Be prepared to emergency stop the robot
+   * Assume any motor can move in ways you aren't expecting
    * [Robot Signal Light (RSL) - What do the following states indicate?](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html#robot-signal-light-rsl)
      * Off
      * On
      * On & Blinking 
-  * ***Demonstrate how to do the following:***
+* ***Demonstrate how to do the following:***
     * [Perform an emergency stop of the robot](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station.html#driver-station-key-shortcuts)
     * Show how to safely carry a battery
     * Show how to turn on/off the robot
-  * ***Robotics Safety Links***
+* ***Robotics Safety Links***
     * [2023 FRC Safety Manual](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/safety/2023/2023-Safety-Manual.pdf)
     * [WPILIB Battery Safety & Handling](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/robot-battery.html#battery-safety-handling)
 
-#### 2. Robot Hardware - Part 1
+#### 3. Robot Hardware - Part 1
 * ***General Knowledge***
   * roboRIO
     * What IP address(es) does the RIO have?
@@ -57,7 +63,7 @@ New programming students are also required to take the basic handtools, mechanic
     * [How do you update the team number?](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-3/roborio2-imaging.html#setting-the-roborio-team-number)
     * Why is it important to have the team number correct?
     * [What is a brownout?](https://docs.wpilib.org/en/stable/docs/software/roborio-info/roborio-brownouts.html)
-  * CAN Bus
+  * [CAN Bus](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/can-wiring-basics.html)
     * Understand how the CAN bus is wired
     * Where are the ends of the CAN bus connected in a robot?
     * What happens if there is a break in the CAN bus?
@@ -68,11 +74,11 @@ New programming students are also required to take the basic handtools, mechanic
     * Explain difference between brushed and brushless motors
     * Know if these common motors are brushed or brushless
     * What are advantages/disadvantage of brushed/brushless motors?
-    * Talon SRX LED Codes
-    * Spark MAX LED Codes
+    * [Talon SRX LED Codes](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html#talon-srx-victor-spx-talon-fx-motor-controllers)
+    * [Spark MAX LED Codes](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html#spark-max-motor-controller)
   * Other hardware on the robot:
     * [Power Distribution Panel (PDP)](https://store.ctr-electronics.com/power-distribution-panel/)/[Power Distribution Hub(PDH)](https://www.revrobotics.com/rev-11-1850/)
-    * Voltage Regulator Module (VRM)
+    * [Voltage Regulator Module (VRM)](https://www.andymark.com/products/voltage-regulator-module)
     * Pneumatics Control Module (PCM)
     * Radio (lights, boot up, radio configuration utility)
     * Pigeon
@@ -102,9 +108,11 @@ New programming students are also required to take the basic handtools, mechanic
   * [WPILIB roboRIO Introduction](https://docs.wpilib.org/en/stable/docs/software/roborio-info/roborio-introduction.html)
   * [roboRIO User Manual](https://www.ni.com/docs/en-US/bundle/roborio-20-umanual/page/umanual.html)
   * [Brushed Vs Brushless Motor - What Is The Difference?](https://www.youtube.com/watch?v=4LW-iUehJh8)
-#### 3. Robot Hardware - Part 2
+  * [Status Light Quick Reference](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html)
+#### 4. Robot Hardware - Part 2
   * ***General Knowledge***
-    * Drivetrains
+    * [Drivetrains](
+https://youtu.be/JTZ31lpMkfA)
       * Be able to identify common drivetrains
       * Be able to explain the advantages/disadvantages of various common drivetrains
     * Gears
@@ -118,41 +126,43 @@ New programming students are also required to take the basic handtools, mechanic
       * Gyro
   * ***Demonstrate how to do the following:***
     * Gear activity with LEGO
-    * This needs to bge developed more
+    * This needs to be developed more
   * ***Additional Robot Hardware Links***
     * Drivetrains
       * [Intro to FRC Mechanisms](https://www.youtube.com/watch?v=JTZ31lpMkfA)
       * [REV Drivetrain Info](https://docs.revrobotics.com/frc-kickoff-concepts/charged-up-2023/drivetrains)
       * [What Does an FRC Drivetrain Do?](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/behind-the-lines/2017/btl-s03e04-drivetrains.pptx)
  
- #### 4. Basic Python
+ #### 5. Basic Python
   * ***Basic Python Knowledge for FRC***
-    * Output with print()
-    * Input with input()
+    * [Output with print()](https://www.w3schools.com/python/ref_func_print.asp)
+    * [input()](https://www.w3schools.com/python/ref_func_input.asp)
     * Loops
     * If/else
     * Basic Data Structures
       * Lists
       * Dictionaries
       * Tuples
-      * Sets
       * Basic methods for these
     * Functions
     * Try/Except
-    * String methods
+    * [String methods](https://www.w3schools.com/python/python_ref_string.asp)
     * Other Basic Methods
     * File IO
   * ***Demonstrate Python Knowledge by Doing the following:***
+    * Try some of these basic Python exercises
+    * Work through these Python projects 
   * ***Basic Python Learning Links/Options***
     * With Python, there is no shortage of online resources and tutorials to learn with. The links I've included here are ones that I've used, but there are many more options than what is listed.
     * I have used the following books to teach Python to various groups:
       * *[Invent Your Own Computer Games with Python](https://inventwithpython.com/invent4thed/)*
       * *[Python Crash Course](https://nostarch.com/python-crash-course-3rd-edition)*
       * *[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)*
+      * *[Learn Python 3 The Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888)*
     * Youtube Tutorials and useful channels:
       * [Tech with Tim](https://www.youtube.com/c/TechWithTim)
  
- #### 5. Intermediate/Advanced Python
+ #### 6. Intermediate/Advanced Python
   * Object Oriented Programming with Python
   * *args and **kwargs
   * Dunder methods
@@ -164,7 +174,7 @@ New programming students are also required to take the basic handtools, mechanic
   * [PEP8](https://peps.python.org/pep-0008/)/[General Python Programming Style](https://docs.python-guide.org/writing/style/)
   * PyDoc
  
- #### 6. Installing robotpy
+ #### 7. Installing robotpy
 
 * Robot Programming
   * Motors
