@@ -47,12 +47,12 @@ Write a program to count from 10 to 1 using a while loop.
 
 <img src="https://github.com/jbfrc/FRC-New-Programmer-Training-Private/assets/54005341/b8f21088-d5db-4c95-b9ca-120ac1cd9176" width = "30%" height = "30%">
 
+![IfThenDemo-Output](https://github.com/jbfrc/FRC-New-Programmer-Training/assets/54005341/3bfeca71-db70-47f0-85d5-043c55d067d8)
+
 #### 10. If/Elif/Else Demo
 Generate two random numbers. Compare these numbers to determine if number 1 is greater than 2, number 1 is less than 2, or they are equal.
 
-![IfThenDemo-Output](https://github.com/jbfrc/FRC-New-Programmer-Training-Private/assets/54005341/fa38b811-f3f6-437d-9b25-cff18b36b9fa)
-
-
+<img src="https://github.com/jbfrc/FRC-New-Programmer-Training/assets/54005341/3bfeca71-db70-47f0-85d5-043c55d067d8" width = "30%" height = "30%">
 
 #### 11. The Collatz Conjecture (3n + 1 problem).
 Have the user enter a positive integer.<br>
@@ -63,8 +63,7 @@ d.	Stop when you reach the number 1.<br>
 e.	Keep track of the number of steps to get back to 1, and display that information to the user at the end.<br>
 If you find a number that doesn’t eventually reach 1, then you have just become a world-famous mathematician. For more information about this problem, watch this video – [The Simplest Math Problem No One Can Solve](https://www.youtube.com/watch?v=094y1Z2wpJg)
 
-<img src="https://github.com/jbfrc/FRC-New-Programmer-Training-Private/assets/54005341/01387657-8f27-40d2-811b-3f54187a95fc" width = "30%" height = "30%">
-
+<img src="https://github.com/jbfrc/FRC-New-Programmer-Training/assets/54005341/b9e93132-35fe-490b-a7f2-82bcecf6ecc3" width = "30%" height = "30%">
 
 
 ## Part 2 - String Manipulation
