@@ -54,11 +54,14 @@ Generate two random numbers. Compare these numbers to determine if number 1 is g
 
 #### 11. The Collatz Conjecture (3n + 1 problem).
 Have the user enter a positive integer.<br>
-a.	If that number is even, divide it by 2.<br>
-b.	If it is odd, multiply it by 3 and add 1.<br>
-c.	Keep applying these same rules to the numbers that result.<br>
-d.	Stop when you reach the number 1.<br>
-e.	Keep track of the number of steps to get back to 1, and display that information to the user at the end.<br>
+<ol type="a">
+ <li>If that number is even, divide it by 2.</li>
+ <li>If it is odd, multiply it by 3 and add 1.</li>
+ <li>Keep applying these same rules to the numbers that result.</li>
+ <li>Stop when you reach the number</li>
+ <li>Keep track of the number of steps to get back to 1, and display that information to the user at the end.</li>
+</ol>
+
 If you find a number that doesn’t eventually reach 1, then you have just become a world-famous mathematician. For more information about this problem, watch this video – [The Simplest Math Problem No One Can Solve](https://www.youtube.com/watch?v=094y1Z2wpJg)
 
 <img src="https://github.com/jbfrc/FRC-New-Programmer-Training/assets/54005341/b9e93132-35fe-490b-a7f2-82bcecf6ecc3" width = "30%" height = "30%">
