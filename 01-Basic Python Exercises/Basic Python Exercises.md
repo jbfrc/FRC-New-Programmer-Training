@@ -45,7 +45,7 @@ Write a program to count from 10 to 1 using a while loop.
 
 #### 9. Write a program to have the user enter their name and display the following output:
 
-<img src="https://github.com/jbfrc/FRC-New-Programmer-Training-Private/assets/54005341/b8f21088-d5db-4c95-b9ca-120ac1cd9176" width = "30%" height = "30%">
+<img src="https://github.com/jbfrc/FRC-New-Programmer-Training/assets/54005341/e83279de-a1d5-44f5-8742-62109e96591f" width = "30%" height = "30%">
 
 #### 10. If/Elif/Else Demo
 Generate two random numbers. Compare these numbers to determine if number 1 is greater than 2, number 1 is less than 2, or they are equal.
