@@ -1,6 +1,6 @@
 <h1>Ozone Robotics - New Programming Student Training</h1>
 
-Last Updated: May 28, 2023
+Last Updated: June 15, 2023
 
 <h2>Overview of Training Topics</h2>
 
@@ -50,7 +50,7 @@ New programming students are also required to take the basic handtools, mechanic
 #### 3. Robot Hardware - Part 1
 * ***General Knowledge***
   * roboRIO
-    * What IP address(es) does the RIO have?
+    * Know how to connect via USB and with the radio.
     * [What do the LED status lights mean?](https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/status-lights-ref.html#roborio)
     * Identify and know what the various ports are used for:
       * Power Connector
@@ -70,6 +70,8 @@ New programming students are also required to take the basic handtools, mechanic
     * How do you identify the CAN bus wires?
   * Motors & Motor Controllers
     * Be able to identify common FRC motors
+      * [Beginner Motors for FRC](https://www.youtube.com/watch?v=vWKKIhUcTzw)
+      * 
     * Know what motor controllers can be used with motors
     * Explain difference between brushed and brushless motors
     * Know if these common motors are brushed or brushless
@@ -133,69 +135,16 @@ https://youtu.be/JTZ31lpMkfA)
       * [REV Drivetrain Info](https://docs.revrobotics.com/frc-kickoff-concepts/charged-up-2023/drivetrains)
       * [What Does an FRC Drivetrain Do?](https://www.firstinspires.org/sites/default/files/uploads/resource_library/frc/team-resources/behind-the-lines/2017/btl-s03e04-drivetrains.pptx)
  
- #### 5. Basic Python
-  * ***Basic Python Knowledge for FRC***
-    * [Output with print()](https://www.w3schools.com/python/ref_func_print.asp)
-    * [input()](https://www.w3schools.com/python/ref_func_input.asp)
-    * Loops
-    * If/else
-    * Basic Data Structures
-      * Lists
-      * Dictionaries
-      * Tuples
-      * Basic methods for these
-    * Functions
-    * Try/Except
-    * [String methods](https://www.w3schools.com/python/python_ref_string.asp)
-    * Other Basic Methods
-    * File IO
-  * ***Demonstrate Python Knowledge by Doing the following:***
-    * [Try some of these basic Python exercises](https://github.com/jbfrc/FRC-Python-Training/blob/main/01-Basic%20Python%20Exercises/Basic%20Python%20Exercises.md)
-    * [Work on a more open-ended Python project](https://github.com/jbfrc/FRC-Python-Training/blob/main/02-Advanced%20Python%20Projects/AdvancedPythonProjects.md)
-  * ***Basic Python Learning Links/Options***
-    * With Python, there is no shortage of online resources and tutorials to learn with. The links I've included here are ones that I've used, but there are many more options than what is listed.
-    * I have used the following books to teach Python to various groups:
-      * *[Invent Your Own Computer Games with Python](https://inventwithpython.com/invent4thed/)*
-      * *[Python Crash Course](https://nostarch.com/python-crash-course-3rd-edition)*
-      * *[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)*
-      * *[Learn Python 3 The Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888)*
-    * Youtube Tutorials and useful channels:
-      * [Tech with Tim](https://www.youtube.com/c/TechWithTim)
- 
- #### 6. Intermediate/Advanced Python
-  * Object Oriented Programming with Python
-  * *args and **kwargs
-  * Dunder methods
-  * Generators
-  * List comprehensions
-  * Decorators
-  * Testing
-  * PIP
-  * [PEP8](https://peps.python.org/pep-0008/)/[General Python Programming Style](https://docs.python-guide.org/writing/style/)
-  * PyDoc
- 
- #### 7. Installing robotpy
-
-* Robot Programming
-  * Motors
-  * Encoders
-  * Sensors
-  * Pneumatics
-* PID
-* Network Tables
-* Simulation
-* Unit Testing
-* Vision
-  * Apriltags
-  * Limelight
-* Scouting
-  * The Blue Alliance
-  * Python request and json modules
+#### 5. Basic Python 
+#### 6. Intermediate/Advanced Python
+#### 7. Installing robotpy
+#### 8. Robot Programming - Part 1
+#### 9. PID
+#### 10. Robot Programming - Part 2
+#### 11. Introduction to Computer Vision
+#### 12. Scouting
  
  ### Useful Links
 * [WPILIB](https://docs.wpilib.org/en/stable/)
 * [robotpy](https://robotpy.readthedocs.io/en/stable/#)
-* https://www.youtube.com/watch?v=p15xzjzR9j0
-* https://www.youtube.com/watch?v=27u8xHqLMZE
-* https://python-course.eu/
 
